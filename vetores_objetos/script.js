@@ -16,8 +16,9 @@ console.log(array)
 const list = document.getElementById("list")
 const button = document.getElementById("button")
 const input = document.getElementById("input")
-var items = []
+const buttom_empty = document.getElementById("button_limpar")
 
+var items = []
 var emptyList = "Lista limpa."
 
 list.innerHTML = "Lista Vazia."
